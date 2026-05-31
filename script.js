@@ -1,14 +1,10 @@
 // Sample items available in the shop
 const shopItems = [
-    { id: 1, name: 'Chocolate Cake', emoji: '🍰', price: '$12.99' },
-    { id: 2, name: 'Cupcakes', emoji: '🧁', price: '$3.99' },
-    { id: 3, name: 'Cookies', emoji: '🍪', price: '$5.99' },
-    { id: 4, name: 'Donut', emoji: '🍩', price: '$2.99' },
-    { id: 5, name: 'Bread', emoji: '🍞', price: '$4.99' },
-    { id: 6, name: 'Pastry', emoji: '🥐', price: '$3.49' },
-    { id: 7, name: 'Ice Cream', emoji: '🍦', price: '$4.49' },
-    { id: 8, name: 'Candy', emoji: '🍬', price: '$1.99' }
-];
+    { id: 1, name: 'Key Chain', , price: '99Cent' },
+    { id: 2, name: 'Pictres', , price: '2.99' },
+    { id: 3, name: 'Magnets', , price: '1.99' },
+    { id: 4, name: 'Coulered Stone', price: '50cent' },
+
 
 let selectedItemId = null;
 
