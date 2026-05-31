@@ -1,4 +1,4 @@
-# 🛍️ Sweet Shop - Item Reservation System
+# 🛍️ Hidddensee Steinverkauf - Item Reservation System
 
 A beautiful, responsive website for a small shop where customers can reserve items for later pickup and provide their email address for confirmation.
 
