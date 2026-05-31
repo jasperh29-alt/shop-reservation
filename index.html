@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Shop - Item Reservation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛍️ Sweet Shop</h1>
+            <p>Reserve your items for later pickup</p>
+        </header>
+
+        <main>
+            <section class="items-section">
+                <h2>Available Items</h2>
+                <div class="items-grid" id="itemsGrid">
+                    <!-- Items will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="reservation-section">
+                <h2>Complete Your Reservation</h2>
+                <form id="reservationForm" class="reservation-form">
+                    <div class="form-group">
+                        <label for="selectedItem">Selected Item:</label>
+                        <input type="text" id="selectedItem" readonly placeholder="Select an item first">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerName">Your Name:</label>
+                        <input type="text" id="customerName" required placeholder="Enter your full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="customerEmail">Your Email:</label>
+                        <input type="email" id="customerEmail" required placeholder="Enter your email address">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pickupDate">Preferred Pickup Date:</label>
+                        <input type="date" id="pickupDate" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="notes">Additional Notes (Optional):</label>
+                        <textarea id="notes" placeholder="Any special requests or notes..." rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Complete Reservation</button>
+                </form>
+
+                <div id="successMessage" class="success-message" style="display: none;">
+                    ✓ Reservation submitted! Check your email for confirmation.
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Sweet Shop. All rights reserved. | Contact: info@sweetshop.com</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
